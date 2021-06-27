@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# web-clinica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Taller - TIA 2021
 
 ## Available Scripts
 

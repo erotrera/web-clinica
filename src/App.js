@@ -1,6 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
 
+import Cabecera from './componentes/Cabecera';
+import Tarjetas from "./componentes/Tarjetas";
+
+
+class App extends React.Component{
+  render(){
+    return (
+      <div className="App">
+        <Cabecera/>
+        
+        <Tarjetas/>      
+      </div>
+      );
+  };
+}
+
+//const App = () => <div>Hola!</div>;
+
+/*
+function App() {
+  return (
+    <div>Hola!</div>
+  );
+}
+*/
+
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +49,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;
