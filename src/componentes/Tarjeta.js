@@ -14,7 +14,7 @@ class Tarjeta extends React.Component {
                 <div className="card-body">
                     <h4 className="card-title">Titulo de tarjeta</h4>
                     <p className="card-text">Descripción de la tarjeta</p>
-
+                    <button className="btn btn-primary">Leer más</button>
                 </div>
             </div> 
             

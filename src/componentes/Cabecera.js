@@ -12,8 +12,17 @@ class Cabecera extends React.Component {
         return ( 
             <div className="cabecera">
                 <img src={logo_clinica}/>
-                <div className="">
-                    <h1>La Clínica de la Familia</h1>
+
+                
+                <div className="titulo">
+                                               
+                </div>
+                
+                <div className="busqueda">
+                    <form className="d-flex">
+                        <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+                        <button className="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
                 </div>
             </div>
          );

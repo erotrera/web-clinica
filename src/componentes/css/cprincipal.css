@@ -1,0 +1,39 @@
+
+.cprin{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cprin .ban img{
+    width: 100%;
+    max-height: 650px;    
+}
+
+.cprin .banP img{
+    width: 100%;
+    max-height: 2000px;    
+}
+
+.cprin .desc{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.cprin .titulo{
+    width: 100%;
+    background-color: darkgrey;
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.cprin .video{
+
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}

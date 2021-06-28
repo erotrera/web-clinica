@@ -1,0 +1,25 @@
+.tarjetas{
+    margin-bottom: 20px;
+}
+
+.tarjetas .titulo{
+    width: 100%;
+    background-color: darkgrey;
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.tarjetas .ptarjetas{
+    margin-top: 20px;
+}
+
+.tarjetas .ptarjetas .t{
+    max-width: 100%;   
+    margin-bottom: 20px;
+}
+
+.tr{
+    max-width: 100%;
+}

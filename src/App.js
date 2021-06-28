@@ -1,19 +1,36 @@
 import React from 'react';
 // import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
 import Cabecera from './componentes/Cabecera';
+import Barra from "./componentes/Barra";
+import CP from "./componentes/CuerpoPrincipal";
+import CF from "./componentes/CuerpoFil";
+import CI from "./componentes/CuerpoRes";
+import CPL from "./componentes/CuerpoPol";
+import CC from "./componentes/CuerpoCob";
+import CA from "./componentes/CuerpoAreas";
 import Tarjetas from "./componentes/Tarjetas";
-
+import Pie from "./componentes/Pie";
 
 class App extends React.Component{
   render(){
     return (
-      <div className="App">
-        <Cabecera/>
-        
-        <Tarjetas/>      
-      </div>
+      <Router> 
+        <div className="App">
+          <Cabecera/>
+          <Barra/>
+          <Route path="/" exact component={CP} />
+          <Route path="/filosofia" exact component={CF} />
+          <Route path="/institucional" exact component={CI} />
+          <Route path="/politica" exact component={CPL} />
+          <Route path="/coberturas" exact component={CC} /> 
+          <Route path="/areas" exact component={CA} />                 
+          <Tarjetas/>
+          <Pie/>    
+        </div>
+      </Router>
       );
   };
 }
