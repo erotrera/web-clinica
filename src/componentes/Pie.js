@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
 import "./css/pie.css";
 
@@ -18,19 +19,18 @@ export default class Pie extends Component {
                         
                         <div className="col-md-2 mb-3">
                             <h6 className="text-uppercase font-weight-bold">
-                            <a href="#!">Lo que somos</a>
+                            <Link to="/filosofia">Lo que somos</Link>             </h6>
+                        </div>
+                        
+                        <div className="col-md-2 mb-3">
+                            <h6 className="text-uppercase font-weight-bold">
+                            <Link to="/areas">Áreas</Link>
                             </h6>
                         </div>
                         
                         <div className="col-md-2 mb-3">
                             <h6 className="text-uppercase font-weight-bold">
-                            <a href="#!">Consultorios externos</a>
-                            </h6>
-                        </div>
-                        
-                        <div className="col-md-2 mb-3">
-                            <h6 className="text-uppercase font-weight-bold">
-                            <a href="#!">Coberturas</a>
+                            <Link to="/coberturas">Coberturas</Link>
                             </h6>
                         </div>
                                                                

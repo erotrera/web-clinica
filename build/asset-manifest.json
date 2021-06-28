@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.852f6593.chunk.css",
+    "main.js": "/static/js/main.706f50e2.chunk.js",
+    "main.js.map": "/static/js/main.706f50e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c273cfa6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c273cfa6.js.map",
+    "static/css/2.d45d6843.chunk.css": "/static/css/2.d45d6843.chunk.css",
+    "static/js/2.b024081d.chunk.js": "/static/js/2.b024081d.chunk.js",
+    "static/js/2.b024081d.chunk.js.map": "/static/js/2.b024081d.chunk.js.map",
+    "static/js/3.74d41bcf.chunk.js": "/static/js/3.74d41bcf.chunk.js",
+    "static/js/3.74d41bcf.chunk.js.map": "/static/js/3.74d41bcf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.852f6593.chunk.css.map": "/static/css/main.852f6593.chunk.css.map",
+    "static/js/2.b024081d.chunk.js.LICENSE.txt": "/static/js/2.b024081d.chunk.js.LICENSE.txt",
+    "static/media/banner1.6d7657e5.jpg": "/static/media/banner1.6d7657e5.jpg",
+    "static/media/banner2.3bd169a7.jpg": "/static/media/banner2.3bd169a7.jpg",
+    "static/media/banner3.4d6f6ebe.jpg": "/static/media/banner3.4d6f6ebe.jpg",
+    "static/media/banner4.774f96cd.jpg": "/static/media/banner4.774f96cd.jpg",
+    "static/media/bannerCob.8685d0c2.jpg": "/static/media/bannerCob.8685d0c2.jpg",
+    "static/media/doc1.f310c30d.jpg": "/static/media/doc1.f310c30d.jpg",
+    "static/media/logo-clinica.ff8dbd9f.png": "/static/media/logo-clinica.ff8dbd9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c273cfa6.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.b024081d.chunk.js",
+    "static/css/main.852f6593.chunk.css",
+    "static/js/main.706f50e2.chunk.js"
+  ]
+}

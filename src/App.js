@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 
 import Cabecera from './componentes/Cabecera';
@@ -35,6 +35,9 @@ class App extends React.Component{
   };
 }
 
+export default App;
+
+
 //const App = () => <div>Hola!</div>;
 
 /*
@@ -67,4 +70,3 @@ function App() {
   );
 }
 */
-export default App;
