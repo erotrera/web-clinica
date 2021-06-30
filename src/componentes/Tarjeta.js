@@ -10,7 +10,7 @@ class Tarjeta extends React.Component {
     render() { 
         return (
             <div className="card">
-                <img src={img_doc1}/>
+                <img src={img_doc1} alt=""/>
                 <div className="card-body">
                     <h4 className="card-title">Titulo de tarjeta</h4>
                     <p className="card-text">Descripción de la tarjeta</p>

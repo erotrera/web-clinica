@@ -11,7 +11,7 @@ class Cabecera extends React.Component {
     render() { 
         return ( 
             <div className="cabecera">
-                <img src={logo_clinica}/>
+                <img src={logo_clinica} alt=""/>
 
                 
                 <div className="titulo">

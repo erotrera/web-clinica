@@ -7,7 +7,7 @@ export default class CuerpoFil extends Component {
         return (
             <div className="cprin">
                 <div className="ban">
-                    <img src={ban}/>
+                    <img src={ban} alt=""/>
                 </div>
                 <div className="titulo">
                     <div className="h3">Filosofía:</div>

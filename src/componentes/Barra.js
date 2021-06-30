@@ -21,9 +21,9 @@ class Barra extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Institución
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><Link className="dropdown-item" to="/filosofia">Filosofía</Link></li>
                             <li><Link className="dropdown-item" to="/institucional">Reseña institucional</Link></li>
@@ -34,13 +34,13 @@ class Barra extends React.Component {
                         <Link className="nav-link" to="/areas">Areas</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">Consultorios Externos</a>
+                        <Link className="nav-link" to="#">Consultorios Externos</Link>
                         </li>
                         <li className="nav-item">
                         <Link className="nav-link" to="/coberturas">Coberturas</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">Contactos</a>
+                        <Link className="nav-link" to="#">Contactos</Link>
                         </li>
                         
                     </ul>

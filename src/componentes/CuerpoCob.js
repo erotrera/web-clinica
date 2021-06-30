@@ -21,7 +21,7 @@ export default class CuerpoCob extends Component {
 
                 </div>
                 <div className="banP">
-                    <img src={ban}/>
+                    <img src={ban} alt=""/>
                 </div>
 
             </div>

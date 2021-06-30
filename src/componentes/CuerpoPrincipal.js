@@ -8,7 +8,7 @@ export default class CuerpoPrincipal extends Component {
         return (
             <div className="cprin">
                 <div className="ban">
-                    <img src={ban1}/>
+                    <img src={ban1} alt=""/>
                 </div>
                 <div className="desc">
                     <div className="col-md-6">
