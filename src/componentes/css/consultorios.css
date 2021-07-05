@@ -1,0 +1,27 @@
+.desc-cce{
+    display: block;
+    width: 100%;
+}
+
+.desc-cce *{
+    margin: 10px 10px;
+}
+
+.desc-cce .dht{
+    display: grid;
+    font-weight: bolder;
+    font-size: x-large;
+    align-content: center;
+}
+
+.desc-cce .consultorios{
+    width: 100%;
+}
+
+.desc-cce .consultorios .lesp .lmed{
+    margin-bottom: 10px;
+}
+
+.desc-cce .consultorios .lesp .lmed li{
+    margin: 0 0;
+}

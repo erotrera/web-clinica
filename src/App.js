@@ -11,6 +11,9 @@ import CI from "./componentes/CuerpoRes";
 import CPL from "./componentes/CuerpoPol";
 import CC from "./componentes/CuerpoCob";
 import CA from "./componentes/CuerpoAreas";
+import CN from "./componentes/CuerpoNovedad";
+import CCT from "./componentes/CuerpoContacto";
+import CCE from "./componentes/CuerpoConExt";
 import Tarjetas from "./componentes/Tarjetas";
 import Pie from "./componentes/Pie";
 
@@ -26,7 +29,10 @@ class App extends React.Component{
           <Route path="/institucional" exact component={CI} />
           <Route path="/politica" exact component={CPL} />
           <Route path="/coberturas" exact component={CC} /> 
-          <Route path="/areas" exact component={CA} />                 
+          <Route path="/areas" exact component={CA} />
+          <Route path="/novedad" exact component={CN} />
+          <Route path="/contacto" exact component={CCT} />
+          <Route path="/consultorios" exact component={CCE} />
           <Tarjetas/>
           <Pie/>    
         </div>

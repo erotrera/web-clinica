@@ -34,13 +34,13 @@ class Barra extends React.Component {
                         <Link className="nav-link" to="/areas">Areas</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="#">Consultorios Externos</Link>
+                        <Link className="nav-link" to="/consultorios">Consultorios Externos</Link>
                         </li>
                         <li className="nav-item">
                         <Link className="nav-link" to="/coberturas">Coberturas</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="#">Contactos</Link>
+                        <Link className="nav-link" to="/contacto">Contactos</Link>
                         </li>
                         
                     </ul>

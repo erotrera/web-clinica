@@ -75,27 +75,27 @@ export default class Pie extends Component {
                             <div className="icn mb-5 flex-center">
 
                             
-                            <Link className="fb-ic" to="#">
+                            <Link className="fb-ic" to="/#">
                                 <i className="fab fa-facebook-f fa-lg white-text mr-4"> </i>
                             </Link>
                             
-                            <Link className="tw-ic">
+                            <Link className="tw-ic" to="/#">
                                 <i className="fab fa-twitter fa-lg white-text mr-4"> </i>
                             </Link>
                             
-                            <Link className="gplus-ic" to="#">
+                            <Link className="gplus-ic" to="/#">
                                 <i className="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
                             </Link>
                             
-                            <Link className="li-ic" to="#">
+                            <Link className="li-ic" to="/#">
                                 <i className="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
                             </Link>
                             
-                            <Link className="ins-ic" to="#">
+                            <Link className="ins-ic" to="/#">
                                 <i className="fab fa-instagram fa-lg white-text mr-4"> </i>
                             </Link>
                             
-                            <Link className="pin-ic" to="#">
+                            <Link className="pin-ic" to="/#">
                                 <i className="fab fa-pinterest fa-lg white-text"> </i>
                             </Link>
 

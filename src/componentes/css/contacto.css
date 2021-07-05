@@ -1,0 +1,26 @@
+.desc-cc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: black;
+}
+
+.desc-cc fieldset .fcontrol{
+    width: 100%;
+    display: flex;
+    margin: 20px 10px;
+}
+
+.desc-cc fieldset .fcontrol *{
+    margin-right: 10px;
+}
