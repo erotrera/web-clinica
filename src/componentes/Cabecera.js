@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import "./css/cabecera.css";
 
 import logo_clinica from "../recursos/img/logo-clinica.png"
@@ -21,7 +22,7 @@ class Cabecera extends React.Component {
                 <div className="busqueda">
                     <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-                        <button className="btn btn-outline-warning" type="submit">Buscar</button>
+                        <Link className="btn btn-outline-warning" type="button" to="/busqueda">Buscar</Link>
                     </form>
                 </div>
             </div>

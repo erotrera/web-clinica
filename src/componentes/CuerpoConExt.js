@@ -92,32 +92,32 @@ export default class CuerpoConExt extends Component {
                                 <li className="list-group-item">Dra Veronica Salvatierra</li>
                                 <li className="list-group-item">Dra Fernanda Mirolo</li>                                
                             </ul>
-                            <li className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l6" aria-expanded="false" aria-controls="collapseExample">Ginecología</li>
+                            <div className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l6" aria-expanded="false" aria-controls="collapseExample">Ginecología</div>
                             <ul className="lmed list-group collapse list-group-flush" id="l6">
                                 <li className="list-group-item">Dra Margarita Silva</li>                                        
                             </ul>
-                            <li className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l7" aria-expanded="false" aria-controls="collapseExample">Hemodinamia</li>
+                            <div className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l7" aria-expanded="false" aria-controls="collapseExample">Hemodinamia</div>
                             <ul className="lmed list-group collapse list-group-flush" id="l7">
                                 <li className="list-group-item">Dra Rosa Fuentes</li>                                        
                             </ul>
-                            <li className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l8" aria-expanded="false" aria-controls="collapseExample">Neurología</li>
+                            <div className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l8" aria-expanded="false" aria-controls="collapseExample">Neurología</div>
                             <ul className="lmed list-group collapse list-group-flush" id="l8">
                                 <li className="list-group-item">Dra Valeria Robles</li>
                                 <li className="list-group-item">Dra Luna Cartila</li>
                                 <li className="list-group-item">Dr Ernesto Pais</li>
                             </ul>
-                            <li className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l9" aria-expanded="false" aria-controls="collapseExample">Nutrición</li>
+                            <div className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l9" aria-expanded="false" aria-controls="collapseExample">Nutrición</div>
                             <ul className="lmed list-group collapse list-group-flush" id="l9">
                                 <li className="list-group-item">Dra Celia Cruz</li>
                                 <li className="list-group-item">Dra Carla Mirolo</li>                                
                             </ul>
-                            <li className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l10" aria-expanded="false" aria-controls="collapseExample">Traumatología</li>
+                            <div className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l10" aria-expanded="false" aria-controls="collapseExample">Traumatología</div>
                             <ul className="lmed list-group collapse list-group-flush" id="l10">
                                 <li className="list-group-item">Dra Valeria Robles</li>
                                 <li className="list-group-item">Dra Georgina Barba</li>
                                 <li className="list-group-item">Dr Ricardo Juez</li>
                             </ul>
-                            <li className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l11" aria-expanded="false" aria-controls="collapseExample">Urología</li>
+                            <div className="list-group-item btn btn-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#l11" aria-expanded="false" aria-controls="collapseExample">Urología</div>
                             <ul className="lmed list-group collapse list-group-flush" id="l11">
                                 <li className="list-group-item">Dra Romina Malaspina</li>
                                 <li className="list-group-item">Dra Carla Mirolo</li>                                

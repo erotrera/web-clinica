@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 import "./css/cprincipal.css";
 import "./css/contacto.css";
 
@@ -7,6 +7,9 @@ import "./css/contacto.css";
 export default class CuerpoContacto extends Component {
     render() {
 
+        function irInicio(){
+          window.location.href="/";            
+        }
         
         return (
             <div className="cprin">
@@ -70,7 +73,7 @@ export default class CuerpoContacto extends Component {
                     </div>
                 </div>
 
-                <div className="modal fade" id="resultado" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div className="modal fade" id="resultado" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                         <div className="modal-header">
@@ -81,7 +84,7 @@ export default class CuerpoContacto extends Component {
                             <p>Su consulta fue enviada correctamente! Recibirá una respuesta a la brevedad, gracias.</p>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Volver</button>                        
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal"  onClick={irInicio}>Volver</button>                        
                         </div>
                         </div>
                     </div>

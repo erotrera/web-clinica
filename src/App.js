@@ -14,6 +14,7 @@ import CA from "./componentes/CuerpoAreas";
 import CN from "./componentes/CuerpoNovedad";
 import CCT from "./componentes/CuerpoContacto";
 import CCE from "./componentes/CuerpoConExt";
+import CB from "./componentes/CuerpoBusqueda";
 import Tarjetas from "./componentes/Tarjetas";
 import Pie from "./componentes/Pie";
 
@@ -33,6 +34,7 @@ class App extends React.Component{
           <Route path="/novedad" exact component={CN} />
           <Route path="/contacto" exact component={CCT} />
           <Route path="/consultorios" exact component={CCE} />
+          <Route path="/busqueda" exact component={CB} />
           <Tarjetas/>
           <Pie/>    
         </div>
